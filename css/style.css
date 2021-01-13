@@ -3,9 +3,12 @@
 	padding: 0;
 	font-family: sans-serif;
 }
+
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../pics/background.jpg);
 	height: 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 }
@@ -43,7 +46,7 @@ ul li.active a{ /*para nakablue na agad yung button ng home*/
 	max-width: 1200px;
 	margin: auto;
 }
-.title{
+/*.title{
 	position: absolute;
 	top: 65%;
 	left: 18%;
@@ -54,7 +57,20 @@ ul li.active a{ /*para nakablue na agad yung button ng home*/
 	font-family: "Courier", serif;
 	font-size: 40px;
 
+}*/
+.title
+{
+	color: #000080;
+	font-family: "Courier", monospace, serif;
+	font-size: 40px;
+	text-align: center;
+	padding: 100px;
+	position: absolute;
+	top: 65%;
+	left: 18%;
+	transform: translate(-50%, -50%);
 }
+
 @media screen and (max-width: 575px){
 
 	.main{
