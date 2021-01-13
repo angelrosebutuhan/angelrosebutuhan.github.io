@@ -55,3 +55,18 @@ ul li.active a{ /*para nakablue na agad yung button ng home*/
 	font-size: 40px;
 
 }
+@media screen and (max-width: 575px){
+
+	.main{
+		flex-direction: column;
+	}
+
+	.main ul{
+		flex-direction: row;
+		margin-bottom: 1em;
+	}
+	.main li{
+		flex-direction: column;
+		margin-right: 0.7em;
+	}
+}
